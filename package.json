@@ -1,0 +1,31 @@
+{
+  "name": "apivoxsms",
+  "version": "1.0.0",
+  "description": "Cliente API VOX SMS",
+  "main": "tests.js",
+  "scripts": {
+    "test": "node tests",
+    "start": "node tests.js"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "useTabs": false
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:cabupy/apivoxsms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cabupy/apivoxsms/issues"
+  },
+  "author": "Carlos Vallejos",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "qs": "^6.10.1"
+  }
+}
